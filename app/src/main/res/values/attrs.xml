@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="PosterViewGroup">
+        <attr name="image" format="reference" />
+        <attr name="title" format="string" />
+        <attr name="genre" format="enum">
+            <enum name="Animation" value="3131" />
+            <enum name="Action" value="3132" />
+            <enum name="Comedy" value="3133" />
+            <enum name="Drama" value="3134" />
+            <enum name="Horror" value="3135" />
+        </attr>
+        <attr name="currency" format="enum" >
+            <enum name="UAH" value="545" />
+            <enum name="USD" value="546" />
+            <enum name="EUR" value="547" />
+            <enum name="RUB" value="548" />
+        </attr>
+        <attr name="price" format="float" />
+        <attr name="stars" format="enum">
+            <enum name="one" value="1" />
+            <enum name="two" value="2" />
+            <enum name="three" value="3" />
+            <enum name="four" value="4" />
+            <enum name="five" value="5" />
+        </attr>
+    </declare-styleable>
+
+    <declare-styleable name="PowerSwitcherImageView">
+        <attr name="power" format="integer" />
+    </declare-styleable>
+
+
+</resources>

@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">Razvii_pt19</string>
+    <string name="rating_star_image">Rating star image</string>
+    <string name="change_poster">Change poster</string>
+    <string name="poster_title_1">Bad Boys 2</string>
+    <string name="poster_title_2">Amityville</string>
+    <string name="poster_title_3">Finding Dory</string>
+    <string name="poster_title_4">Ace Ventura</string>
+    <string name="see_posters">See Posters</string>
+    <string name="see_fan">See Fan</string>
+    <string name="poster_photo">Poster photo</string>
+    <string name="poster_image">Poster image</string>
+    <string name="alladin_title">Aladdin</string>
 </resources>

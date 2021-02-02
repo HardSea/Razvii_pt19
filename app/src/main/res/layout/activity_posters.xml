@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PostersActivity">
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_change_poster"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/change_poster"
+        app:layout_constraintBottom_toTopOf="@id/poster1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.pmacademy.razvii_pt19.PosterViewGroup
+        android:id="@+id/poster1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:currency="EUR"
+        app:genre="Action"
+        app:image="@drawable/bad_boys_2_poster"
+        app:layout_constraintBottom_toTopOf="@id/poster2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/poster3"
+        app:layout_constraintTop_toBottomOf="@id/btn_change_poster"
+        app:price="12"
+        app:stars="four"
+        app:title="@string/poster_title_1" />
+
+    <com.pmacademy.razvii_pt19.PosterViewGroup
+        android:id="@+id/poster2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:currency="RUB"
+        app:genre="Horror"
+        app:image="@drawable/amityville_poster"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@id/poster4"
+        app:layout_constraintTop_toBottomOf="@id/poster1"
+        app:price="260"
+        app:stars="two"
+        app:title="@string/poster_title_2" />
+
+    <com.pmacademy.razvii_pt19.PosterViewGroup
+        android:id="@+id/poster3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:currency="UAH"
+        app:genre="Animation"
+        app:image="@drawable/finding_dory_poster"
+        app:layout_constraintBottom_toTopOf="@id/poster4"
+        app:layout_constraintLeft_toRightOf="@id/poster1"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_change_poster"
+        app:price="200"
+        app:stars="four"
+        app:title="@string/poster_title_3" />
+
+    <com.pmacademy.razvii_pt19.PosterViewGroup
+        android:id="@+id/poster4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:currency="USD"
+        app:genre="Comedy"
+        app:image="@drawable/ace_ventura_poster"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/poster2"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/poster3"
+        app:price="15"
+        app:stars="five"
+        app:title="@string/poster_title_4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

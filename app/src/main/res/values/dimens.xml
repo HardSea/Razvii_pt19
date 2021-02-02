@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="star_size">16dp</dimen>
+    <dimen name="width_photo_poster">150dp</dimen>
+    <dimen name="height_photo_poster">210dp</dimen>
+    <dimen name="margin_bottom_poster">8dp</dimen>
+    <dimen name="small_margin_bottom_title">4dp</dimen>
+    <dimen name="title_text_size">15sp</dimen>
+    <dimen name="genre_margin_bottom">8dp</dimen>
+    <dimen name="genre_text_size">12sp</dimen>
+    <dimen name="stars_margin_bottom">8dp</dimen>
+    <dimen name="currency_text_size">12sp</dimen>
+    <dimen name="maring_small_size">2dp</dimen>
+    <dimen name="price_text_size">12sp</dimen>
+    <dimen name="poster_padding">4dp</dimen>
+    <dimen name="padding_button">25dp</dimen>
+    <dimen name="power_switcher_circle_size">250dp</dimen>
+</resources>

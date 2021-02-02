@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="@dimen/poster_padding">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="@dimen/width_photo_poster"
+        android:layout_height="@dimen/height_photo_poster"
+        android:layout_gravity="center"
+        android:layout_marginBottom="@dimen/margin_bottom_poster"
+        android:contentDescription="@string/poster_image"
+        android:scaleType="centerCrop"
+        tools:src="@color/teal_700" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginBottom="@dimen/small_margin_bottom_title"
+        android:gravity="start"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:textSize="@dimen/title_text_size"
+        tools:text="Movie title" />
+
+    <TextView
+        android:id="@+id/genre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginBottom="@dimen/genre_margin_bottom"
+        android:gravity="start"
+        android:maxLines="1"
+        android:textColor="@color/black"
+        android:textSize="@dimen/genre_text_size"
+        tools:text="Genre" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/star1"
+                android:layout_width="@dimen/star_size"
+                android:layout_height="@dimen/star_size"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/stars_margin_bottom"
+                android:contentDescription="@string/rating_star_image"
+                tools:src="@drawable/ic_rate_star" />
+
+            <ImageView
+                android:id="@+id/star2"
+                android:layout_width="@dimen/star_size"
+                android:layout_height="@dimen/star_size"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/stars_margin_bottom"
+                android:contentDescription="@string/rating_star_image"
+                tools:src="@drawable/ic_rate_star" />
+
+            <ImageView
+                android:id="@+id/star3"
+                android:layout_width="@dimen/star_size"
+                android:layout_height="@dimen/star_size"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/stars_margin_bottom"
+                android:contentDescription="@string/rating_star_image"
+                tools:src="@drawable/ic_rate_star" />
+
+            <ImageView
+                android:id="@+id/star4"
+                android:layout_width="@dimen/star_size"
+                android:layout_height="@dimen/star_size"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/stars_margin_bottom"
+                android:contentDescription="@string/rating_star_image"
+                tools:src="@drawable/ic_unrate_star" />
+
+            <ImageView
+                android:id="@+id/star5"
+                android:layout_width="@dimen/star_size"
+                android:layout_height="@dimen/star_size"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginBottom="@dimen/stars_margin_bottom"
+                android:contentDescription="@string/rating_star_image"
+                tools:src="@drawable/ic_unrate_star" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/currency"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:layout_marginEnd="@dimen/maring_small_size"
+            android:gravity="start"
+            android:maxLines="1"
+            android:textColor="@color/red"
+            android:textSize="@dimen/currency_text_size"
+            tools:text="UAH" />
+
+        <TextView
+            android:id="@+id/price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="start"
+            android:gravity="start"
+            android:maxLines="1"
+            android:textColor="@color/red"
+            android:textSize="@dimen/price_text_size"
+            tools:text="10.05" />
+
+    </LinearLayout>
+
+</LinearLayout>
